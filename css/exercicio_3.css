@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color:yellow;
+    height: 100vh;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* cria uma grade responsiva */
+    grid-gap: 20px; /* espaçamento entre os itens da grade */
+    padding: 20px; /* preenchimento interno */
+}
+
+.portfolio h2 {
+    text-align: center; /* centraliza o título */
+}
+ 
+ /* espaçamento do topo da pagina */
+ header {
+    padding: 40px 4%;
+
+ }
+
+ header a{
+    text-decoration: none;
+ }
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}

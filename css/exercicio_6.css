@@ -1,0 +1,21 @@
+.faq details {
+    margin-bottom: 20px; /* Espaçamento entre cada pergunta */
+    cursor: pointer; /* Altera o cursor para indicar que a pergunta é clicável */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.faq details p {
+    margin-top: 10px; /* Espaçamento superior entre a pergunta e a resposta */
+}
+
+/* Altera a cor do sumário quando a pergunta é expandida */
+.faq details[open] summary {
+    color: #007bff; /* Cor azul */
+}
+header {
+    background-image: url(../img/xmen1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: yellow;
+}
